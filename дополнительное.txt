@@ -1,0 +1,11 @@
+npm install --save hbs express body-parser mysql2
+npm install jshint
+
+--------------------
+
+CREATE DATABASE projectdtb
+
+CREATE TABLE pass (
+	login VARCHAR(50) NOT NULL,
+	pass VARCHAR(50) NOT NULL
+)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css.css" rel="stylesheet" type="text/css">
+    <link href="some.js" rel="" type="">
+</head>
+<body>
+    <!--<script src="userconf.js"></script>-->
+    <header>
+      <div id="logo">
+        <a href="/">FROOQTI | OVOSZCHI</a>
+      </div>
+       <div id="someId"></div>
+      <div class="hdrblock">
+        Деньги
+      </div>
+
+      <div class="hdrblock">
+        Контакты
+      </div>
+
+      <div class="logpass">
+          {{#if users}}
+          <p>
+            {{#each users}}
+              {{this.login}}
+            {{/each}}
+          </p>
+          {{else}}
+          <p>
+            <div id="signup">
+              <a href="/signup">Войти</a>
+            </div>
+          <br>
+            <div id="register">
+              <a href="/register">Регистрация</a>
+            </div>
+          </p>
+          {{/if}}
+      </div>
+    </header>
+
+    <div class="tape">
+      <!--<img src="images/apples.jpg">
+      <img src="images/citruses.jpg">
+      <img src="images/look.jpg">
+      <img src="images/sekerin.jpg">-->
+    </div>
+
+    <div class="second">
+      <h1>Здесь по идее чота должно быть</h1>
+      Советую авторизоваться, а то не произойдет волшебства.
+      <div id="mainimg">
+      </div>
+    </div>
+
+    <footer>
+        HCI NSU <br> 2021.
+    </footer>
+</body>
+</html>
